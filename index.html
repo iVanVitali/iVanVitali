@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="IvanApp">
     <head>
         <meta charset="utf-8">
         <title>Ivan Vitali - Desarrollador Web</title>
@@ -16,7 +16,7 @@
         <!-- Prefix for vendor properties in CSS -->
         <script type="text/javascript" src="js/prefixfree.min.js"></script>
     </head>
-    <body>
+    <body ng-cloak>
         <header>
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
@@ -117,6 +117,7 @@
                         <div class="info col-xs-12 col-sm-8 col-md-8">
                             <p>Soy <em>desarrollador de aplicaciones web</em> y <b>estudiante</b> de Ingenieria Informatica. Me dedico al desarrollo de las aplicaciones web y estoy trabajando como Freelancer en diferentes proyectos. Trabajo del lado del Front-End como del Back-End. Tambien participo del laboratorio de informatica en la Facultad donde curso mis estudios. Apacionado por crear soluciones me actualizo constantemente en las ultimas tecnologias.
                             </p>
+                            {{ 524 / 25}}
                         </div>
                     </div><!-- row -->
                 </div><!-- container -->
@@ -189,11 +190,13 @@
         <!-- External Libraries -->
         <!-- node_modules/:js -->
         <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script>
         <!-- endinject -->
 
         <!-- Application -->
         <!-- app:js -->
         <script src="app/app.js"></script>
+        <script src="app/core/core.js"></script>
         <!-- endinject -->
 
         <!-- jQuery first, then Bootstrap JS. -->

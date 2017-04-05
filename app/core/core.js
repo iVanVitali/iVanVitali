@@ -1,11 +1,11 @@
 (function () {
     'use strict';
     
-    angular.module('IvanApp', [
+    angular.module('Core', [
         // Angular modules
-
+        'ngRoute'
         // Custom modules
-        'Core'
+        
         // 3rd Party Modules
         
     ]);

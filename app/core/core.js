@@ -3,7 +3,7 @@
     
     angular.module('Core', [
         // Angular modules
-        'ngRoute'
+     //   'ngRoute'
         // Custom modules
         
         // 3rd Party Modules

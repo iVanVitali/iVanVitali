@@ -8,101 +8,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!-- Font-awesome -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="asset/css/font-awesome.min.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- CSS Custom -->
-        <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+        <link rel="stylesheet" href="asset/css/style.css" media="screen" title="no title">
         <!-- Prefix for vendor properties in CSS -->
-        <script type="text/javascript" src="js/prefixfree.min.js"></script>
+        <script type="text/javascript" src="asset/js/prefixfree.min.js"></script>
     </head>
     <body ng-cloak>
+
         <header>
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#presentacion">
-                            <h1>Ivan Vitali <span class="subhead">Desarrollador Web</span></h1>
-                        </a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#presentacion">Presentacion</a></li>
-                            <li><a href="#habilidades">Habilidades</a></li>
-                            <li><a href="#portofolio">Portofolio</a></li>
-                        </ul>
-                    </div><!-- collapse navbar-collapse -->
-
-                </div><!-- container -->
-            </nav><!-- navbar navbar-default -->
-
-            <!-- Comienzo del Carousell -->
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="img/carousel/img1.jpg" alt="...">
-                        <div class="carousel-caption">
-                            <h1 class="carousel-h1">Vivimos en un Mundo Digital</h1>
-                            <hr class="carousel-hr">
-                            <h3 class="carousel-h3">
-                                Hoy la tecnologia esta al alcance de nuestras manos
-                                y nos facilita algunas de las tareas
-                                que realizamos durante el dia, mejorando nuestro desempeño
-                                en diversas actividades.
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/carousel/img23.jpg" alt="...">
-                        <div class="carousel-caption">
-                            <h1 class="carousel-h1">Investigacion y Desarrollo Constante</h1>
-                            <hr class="carousel-hr">
-                            <h3 class="carousel-h3">
-                                Estar a la vanguardia en ultimas tecnologias nos lleva a estar un
-                                paso adelante en el desarrollo de diversas aplicaciones brindando
-                                mejores soluciones en las tareas mas complejas.
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/carousel/img3.jpg" alt="...">
-                        <div class="carousel-caption">
-                            <h1 class="carousel-h1">Enfrentado Desafios a Cada Paso</h1>
-                            <hr class="carousel-hr">
-                            <h3 class="carousel-h3">
-                                El crecimiento personal crece con cada desafio, aprendiendo nuevas herramientas y tecnologias que mejoran la performance de las aplicaciones.
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-                    <span class="fa fa-angle-double-left fa-2x" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-                    <span class="fa fa-angle-double-right fa-2x" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <!--Fin del Carousell-->
-
+            <div nav></div>
 
         </header>
 
@@ -111,13 +28,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="photo col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
-                            <img class="img-circle" src="img/foto-ivanvitali.jpg" alt="Foto de Ivan Vitali">
+                            <img class="img-circle" src="asset/img/foto-ivanvitali.jpg" alt="Foto de Ivan Vitali">
                             <h2>Ivan Vitali</h2>
                         </div>
                         <div class="info col-xs-12 col-sm-8 col-md-8">
                             <p>Soy <em>desarrollador de aplicaciones web</em> y <b>estudiante</b> de Ingenieria Informatica. Me dedico al desarrollo de las aplicaciones web y estoy trabajando como Freelancer en diferentes proyectos. Trabajo del lado del Front-End como del Back-End. Tambien participo del laboratorio de informatica en la Facultad donde curso mis estudios. Apacionado por crear soluciones me actualizo constantemente en las ultimas tecnologias.
                             </p>
-                            {{ 524 / 25}}
                         </div>
                     </div><!-- row -->
                 </div><!-- container -->
@@ -126,32 +42,32 @@
                 <div class="container">
                     <ul class="galeria">
                         <!--fila 1-->
-                        <li><a href=""><img src="img/logoc/css3.fw.png" /></a></li>
-                        <li><img src="img/grid_empty.fw.png" /></li>
-                        <li><a href=""><img src="img/logoc/html5.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/php.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/laravel.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/css3.fw.png" /></a></li>
+                        <li><img src="asset/img/grid_empty.fw.png" /></li>
+                        <li><a href=""><img src="asset/img/logoc/html5.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/php.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/laravel.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
                         <!--fila 2-->
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/bootstrap.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/jquery.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/fireworks.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/mysql.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/json.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/bootstrap.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/jquery.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/fireworks.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/mysql.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/json.fw.png" /></a></li>
                         <!--fila 3-->
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/js.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/ajax.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/grid_empty.fw.png" /></a></li>
-                        <li><a href=""><img src="img/logoc/github.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/js.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/ajax.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/grid_empty.fw.png" /></a></li>
+                        <li><a href=""><img src="asset/img/logoc/github.fw.png" /></a></li>
                     </ul>
                 </div><!-- container -->
             </div><!-- page  habilidades -->
@@ -197,6 +113,8 @@
         <!-- app:js -->
         <script src="app/app.js"></script>
         <script src="app/core/core.js"></script>
+        <script src="app/layout/layout.js"></script>
+        <script src="app/layout/layoutDirective.js"></script>
         <!-- endinject -->
 
         <!-- jQuery first, then Bootstrap JS. -->
@@ -204,7 +122,7 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <script type="text/javascript" src="js/script.js">
+        <script type="text/javascript" src="asset/js/script.js">
         </script>
     </body>
 </html>

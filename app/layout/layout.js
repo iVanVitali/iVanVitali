@@ -1,14 +1,13 @@
 (function () {
     'use strict';
     
-    angular.module('IvanApp', [
+    angular.module('Layout', [
         // Angular modules
-
         // Custom modules
-        'Core',
-        'Layout'
+        'Core'
         // 3rd Party Modules
-        
-    ]);
+    ], function () {
+        console.log('Se cargo el modulo Layout!');
+    });
     
 }());

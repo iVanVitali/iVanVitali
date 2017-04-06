@@ -2,18 +2,25 @@
     'use strict';
     
     angular.module('Layout')
-        .directive('nav', function() {
+        .directive('wacho', function() {
+            return {
+                restrict: 'A',
+                replace: 'false',
+                templateUrl: 'app/layout/header.html'
+            }
+        })
+        .directive('presentation', function () {
             return {
                 restrict: 'A',
                 replace: 'true',
-                templateUrl: 'app/layout/nav.html'
+                templateUrl: 'app/layout/presentation.html'
             }
         })
-        .directive('carousell', function () {
+        .directive('footer', function () {
             return {
                 restrict: 'A',
-                resplace: 'true',
-                templateUrl: 'app/layout/carousell.html'
+                replace: 'true',
+                templateUrl: 'app/layout/footer.html'
             }
         });
     
